@@ -3,9 +3,9 @@ import ProductCard from './ProductCard';
 import NavBar from './NavBar';
 
 const products = [
-  { id: 1, name: 'Amazon Echo Show 8 (2nd Gen)', description: 'Pantalla inteligente de 8 pulgadas con Alexa', price: '$130', image: './src/assets/smart_display/AmazonEchoShow8.jpg', category: 'Smart Display' },
-  { id: 2, name: 'Amazon Echo Show 8 (2nd Gen)', description: 'Pantalla inteligente de 8 pulgadas con Alexa', price: '$130', image: './src/assets/smart_display/AmazonEchoShow8.jpg', category: 'Smart Display' },
-  { id: 3, name: 'Amazon Echo Show 8 (2nd Gen)', description: 'Pantalla inteligente de 8 pulgadas con Alexa', price: '$130', image: './src/assets/smart_display/AmazonEchoShow8.jpg', category: 'Smart Display' }
+  { id: 1, name: 'Amazon Echo Show 8 (2nd Gen)', description: 'Pantalla inteligente de 8 pulgadas con Alexa', price: '$130', image: '../src/assets/smart_display/AmazonEchoShow8.jpg', category: 'Smart Display' },
+  { id: 2, name: 'Amazon Echo Show 8 (2nd Gen)', description: 'Pantalla inteligente de 8 pulgadas con Alexa', price: '$130', image: '../src/assets/smart_display/AmazonEchoShow8.jpg', category: 'Smart Display' },
+  { id: 3, name: 'Amazon Echo Show 8 (2nd Gen)', description: 'Pantalla inteligente de 8 pulgadas con Alexa', price: '$130', image: '../src/assets/smart_display/AmazonEchoShow8.jpg', category: 'Smart Display' }
 ];
 
 const ItemListContainer = ({ message }) => {
