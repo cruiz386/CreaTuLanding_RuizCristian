@@ -51,7 +51,7 @@ const Footer = () => {
         </div>
       </div>
       <Logo 
-          src="./src/assets/logo/logo_fdo_bco.png" 
+          src="./assets/logo/logo_fdo_bco.png" 
           alt="Logo CaSa footer blanco" 
           style={{ width: "50px", borderRadius: "30%", borderStyle: 'groove', margin:"20px" }}  
         />

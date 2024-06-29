@@ -8,7 +8,7 @@ const NavBar = ({ cartCount }) => {
     <Navbar bg="secondary" variant="dark" expand="lg" className="mb-4">
       <Container>
         <Logo
-          src="./src/assets/logo/logo_fdo_negro.png"
+          src="./assets/logo/logo_fdo_negro.png"
           alt="Logo CaSa footer negro"
           style={{ width: "70px", borderRadius: "30%", margin:"5px 50px" }}
         />

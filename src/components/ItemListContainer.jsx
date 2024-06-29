@@ -3,10 +3,11 @@ import ProductCard from './ProductCard';
 import NavBar from './NavBar';
 
 const products = [
-  { id: 1, name: 'Amazon Echo Show 8 (2nd Gen)', description: 'Pantalla inteligente de 8 pulgadas con Alexa', price: '$130', image: '../src/assets/smart_display/AmazonEchoShow8.jpg', category: 'Smart Display' },
-  { id: 2, name: 'Amazon Echo Show 8 (2nd Gen)', description: 'Pantalla inteligente de 8 pulgadas con Alexa', price: '$130', image: '../src/assets/smart_display/AmazonEchoShow8.jpg', category: 'Smart Display' },
-  { id: 3, name: 'Amazon Echo Show 8 (2nd Gen)', description: 'Pantalla inteligente de 8 pulgadas con Alexa', price: '$130', image: '../src/assets/smart_display/AmazonEchoShow8.jpg', category: 'Smart Display' }
+  { id: 1, name: 'Amazon Echo Show 8 (2nd Gen)', description: 'Pantalla inteligente de 8 pulgadas con Alexa', price: '$130', image: './assets/smart_display/AmazonEchoShow8.jpg', category: 'Smart Display' },
+  { id: 2, name: 'Facebook Portal', description: 'Pantalla inteligente enfocada en videollamadas', price: '$150', image: './assets/smart_display/Facebook-Portal.jpg', category: 'Smart Display' },
+  { id: 3, name: 'Google Nest Hub (2nd Gen)', description: 'Pantalla inteligente de 7 pulgadas con Google Assistant', price: '$180', image: './assets/smart_display/GoogleNestHub.jpg', category: 'Smart Display' }
 ];
+
 
 const ItemListContainer = ({ message }) => {
   const [count, setCount] = useState(0);
