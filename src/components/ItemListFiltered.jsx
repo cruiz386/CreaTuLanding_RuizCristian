@@ -1,9 +1,9 @@
 import React from 'react';
-import ItemList from './ItemList';
+import ItemFiltered from './ItemFiltered';
 import Loader from './Loader';
 import { useAppContext } from './Context';
 
-const ItemListContainer = () => {
+const ItemListFiltered = () => {
 
     const { products } = useAppContext();
 
@@ -12,12 +12,12 @@ const ItemListContainer = () => {
             {
                 products.length === 0 ?
                 <div><Loader />
-                <p> Cargando productos disponibles...</p></div>                    
+                <p> Cargando productos de categoria seleccionada...</p></div>
                     :
-                    <ItemList products={products} />
+                    <ItemFiltered products={products} />
             }
         </>
     );
-};
+}
 
-export default ItemListContainer;
+export default ItemListFiltered;
