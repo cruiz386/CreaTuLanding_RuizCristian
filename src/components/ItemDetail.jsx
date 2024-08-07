@@ -9,7 +9,9 @@ const ItemDetail = () => {
     const { itemId } = useParams();
     const [product, setProduct] = useState(null);
     const [quantity, setQuantity] = useState(1);
-    const imageUrl = `https://cruiz386.github.io/CreaTuLanding_RuizCristian/assets/${product.image}`;
+
+    
+    const imageUrl = `/assets/${product?.image}`;
 
     useEffect(() => {
         if (products.length > 0) {
