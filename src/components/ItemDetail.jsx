@@ -46,7 +46,7 @@ const ItemDetail = () => {
         <div className="col-lg-4 col-md-6 mb-4">
             <div className="card h-100 align-items-center justify-content-center mb-4">
                 <img
-                    src={"." + product.image}
+                    src={"https://cruiz386.github.io/CreaTuLanding_RuizCristian/assets/" + product.image}
                     className="card-img-top m-2"
                     alt={product.name}
                     style={{ width: '15rem', height: '200px', maxWidth: '200px', maxHeight: '250px', alignSelf: 'center' }}
