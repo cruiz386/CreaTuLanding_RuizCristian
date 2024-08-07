@@ -2,7 +2,7 @@ import Button from './Button';
 import { Link } from 'react-router-dom';
 
 const Item = ({ id, image, name, price, description, category, stock }) => {
- 
+    
     const imageUrl = image; 
 
     return (
@@ -32,3 +32,4 @@ const Item = ({ id, image, name, price, description, category, stock }) => {
 };
 
 export default Item;
+
